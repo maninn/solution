@@ -3,4 +3,8 @@ services:
   csvserver:
     build: . 
     ports:
-      - "9393:9300"  
+      - "9393:9300" 
+  prometheus:
+    image: prom/prometheus:v2.22.0
+    ports:
+      - "9090:9090"
