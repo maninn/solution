@@ -1,0 +1,1 @@
+   48  docker run --env CSVSERVER_BORDER=Orange --publish 9393:9300 -d -v /root/manimaran/inputFile:/csvserver/inputdata infracloudio/csvserver:latest
